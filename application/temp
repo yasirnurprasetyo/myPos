@@ -1,0 +1,61 @@
+ <!-- Sidebar Menu -->
+    <aside class="main-sidebar">
+      <section class="sidebar">
+        <div class="user-panel">
+          <nav class="mt-2">
+            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+              <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+              <li class="nav-item has-treeview menu-open">
+                <a href="<?= site_url("dashboard") ?>" class="nav-link active">
+                  <i class="nav-icon fa fa-dashboard"></i>
+                  <p>
+                    Dashboard
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="<?= site_url("suplier") ?>" class="nav-link">
+                  <i class="nav-icon fa fa-truck"></i>
+                  <p>
+                    Suplier
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="<?= site_url("barang") ?>" class="nav-link">
+                  <i class="nav-icon fa fa-box"></i>
+                  <p>
+                    Barang
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="<?= site_url("app") ?>" class="nav-link">
+                  <i class="nav-icon fa fa-tv"></i>
+                  <p>
+                    Aplikasi Transaksi
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="<?= site_url("transaksi") ?>" class="nav-link">
+                  <i class="nav-icon fa fa-tasks"></i>
+                  <p>
+                    Transaksi
+                  </p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="<?= site_url("user") ?>" class="nav-link">
+                  <i class="nav-icon fa fa-user"></i>
+                  <p>
+                    User Management
+                  </p>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+    </aside>
